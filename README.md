@@ -5,6 +5,7 @@ Build and sign JSON Web Tokens entirely in your browser using WebCrypto (`crypto
 **Live:** https://techshield-tech.github.io/jwt-generator/
 
 Part of [MMOALL Developer Tools](https://mmoall.com/tools).
+Also available at [mmoall.com/tools/jwt-generator](https://mmoall.com/tools/jwt-generator).
 
 ## Features
 
