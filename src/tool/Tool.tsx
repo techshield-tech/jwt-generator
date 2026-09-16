@@ -1,5 +1,5 @@
 import { useCallback, useMemo, useState } from 'react';
-import { Button, CopyButton, ErrorBox, Panel, Select, TextArea, Toolbar } from '../shell/ui';
+import { Button, CopyButton, ErrorBox, Panel, Select, TextArea, Toolbar } from '@mmoall/tool-kit';
 import { algorithmFamily, signJwt, type JwtAlgorithm, type SigningKeyInput } from './jwt-sign';
 import { generateDemoKeyPair } from './keygen';
 import { computeExpiry, nowSeconds, upsertClaim, type ExpiryUnit } from './claims';
@@ -29,7 +29,7 @@ const DEFAULT_PAYLOAD = `{
 }`;
 
 // Small text-input styling to match the shared Select/TextArea primitives in
-// ../shell/ui, since that file intentionally has no generic <Input>.
+// @mmoall/tool-kit, since that package intentionally has no generic <Input>.
 const textInputClassName =
   'rounded-md border border-[var(--color-border)] bg-[var(--color-panel)] px-2 py-1.5 text-sm text-[var(--color-fg)] outline-none focus:border-[var(--color-accent)]';
 
